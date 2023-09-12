@@ -148,6 +148,12 @@ input {
   transition: 500ms;
 }
 
+.h1{
+  text-align: center;
+  font-style: bold;
+  color: #00000;
+  content wrap;
+}
 /* Subheading */
 h2 {
   text-align: center;
