@@ -20,6 +20,13 @@ if (btn) {
   };
 }
 
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
 // This is a single line JS comment
 /*
 This is a comment that can span multiple lines 
