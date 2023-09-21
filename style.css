@@ -202,7 +202,7 @@ model-viewer {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: #808080;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -212,7 +212,7 @@ model-viewer {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 30px;
-  color: #0059b3;
+  color: #ff3333;
   display: block;
   transition: 0.3s;
 }
