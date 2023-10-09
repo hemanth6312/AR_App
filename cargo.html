@@ -10,6 +10,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- 
       This is an HTML comment
@@ -17,20 +18,18 @@
     -->
 
     <title>Hello World!</title>
+    <div class="navbar">
+  <a class="active" href="index.html"><i class="fa fa-fw fa-home"></i> Home</a> 
+  <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a> 
+</div>
+
     <div class = "h1">
       <h1>CEMS WebXR Demo</h1>
       <div class="Dsp">
         This is an example of an augmented reality project built on WebXR that may be used as a showcase or demo for the marine project.
     </div>
       </div>
-      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
-      <div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="cargo.html">Cargo Models</a>
-  <a href="#">Logistic Models</a>
-  <a href="oil-tanker.html">Oil Tankers</a>
-  <a href="#">Contact</a>
-</div>
+            
     <div class="box">
       <h2>Planetary Gearbox</h2>
       <div class="cc">
@@ -44,12 +43,12 @@
         </a>
         &nbsp;&nbsp;
         <a
-          href="https://sketchfab.com/3d-models/gearbox-planetary-2bee7992d266456aaef1f1394b0ebb98"
+          href="https://sketchfab.com/3d-models/cargo-ship-b7c97df584824ca682d26daabf401f87"
           target="_blank"
-          >T-FLEX CAD ST (Free)</a
+          >hungry_drifter (Free)</a
         >
         <model-viewer
-          src="https://cdn.glitch.com/6f8eb042-0e74-4182-9d39-4f877746edb1%2Fgearbox_conical.glb?v=1566506963689"
+          src="https://cdn.glitch.global/bd49dbdd-fc27-4636-b476-4b5276032f8a/cargo_ship.glb?v=1696491367420"
           alt="Conical Gearbox"
           background-color="#42697b"
           auto-rotate
@@ -71,12 +70,12 @@
         </a>
         &nbsp; &nbsp;
         <a
-          href="https://d1a370nemizbjq.cloudfront.net/f074bfda-28f4-4e9c-af8c-729d7889c1f2.glb"
+          href="https://sketchfab.com/3d-models/cargo-ship-02-22135f8937194b6aba964b05e3608620"
           target="_blank"
           >T-FLEX CAD ST (Free)</a
         >
         <model-viewer
-          src="https://cdn.glitch.global/e4072b85-fb91-484f-959b-c753bf4b33f2/f074bfda-28f4-4e9c-af8c-729d7889c1f2.glb?v=1656569413745"
+          src="https://cdn.glitch.me/bd49dbdd-fc27-4636-b476-4b5276032f8a/cargo_ship_02.glb?v=1696491380762"
           alt="Planetary Gearbox"
           background-color="#42697b"
           auto-rotate
@@ -98,12 +97,12 @@
         </a>
         &nbsp; &nbsp;
         <a
-          href="https://sketchfab.com/3d-models/gearbox-conical-60f023924ee0456daa758eb590b6064b"
+          href="https://sketchfab.com/3d-models/maersk-container-ship-8c39021a0dc44ca6b6ca611cc967e540"
           target="_blank"
           >T-FLEX CAD ST (Free)</a
         >
         <model-viewer
-          src="https://cdn.glitch.com/6f8eb042-0e74-4182-9d39-4f877746edb1%2Fgearbox_worm.glb?v=1566506941410"
+          src="https://cdn.glitch.me/bd49dbdd-fc27-4636-b476-4b5276032f8a/maersk_container_ship.glb?v=1696491396090"
           alt="Worm Gearbox"
           background-color="#42697b"
           auto-rotate
@@ -134,10 +133,10 @@
     <meta name="twitter:card" content="summary" />
 
     <!-- Import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/cargo.css" />
+    <link rel="stylesheet" href="/style.css" />
 
     <!-- Import the webpage's javascript file -->
-    <script src="/script.js" defer></script>
+    <script src="/cargo.js" defer></script>
   </head>
   <body>
     <!--
@@ -147,7 +146,7 @@
       There are elements for sections of the page, images, text, and more
       The elements include attributes referenced in the CSS for the page style
     -->
-
+<span class = "spa">Select a gearbox to display in AR</span>
     <!-- The wrapper and content divs set margins and positioning -->
     <div class="wrapper">
       <div class="content" role="main">
@@ -155,7 +154,7 @@
         <h1 class="title"></h1>
         <!-- Instructions on using this project -->
         <div class="instructions">
-          <h2>Select a gearbox to display in AR</h2>
+          <h2>Select the Cube icon at the bottom of the model to display in AR</h2>
           <!-- ADD BUTTON HERE -->
 
           <!-- Once you've added the button from the readme, click it in the page -->
