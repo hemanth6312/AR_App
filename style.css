@@ -251,3 +251,9 @@ model-viewer {
     margin-right: 0px;
     /* You can add other styles here if needed */
 }
+.linkedin img {
+    width: 30px; /* Make the LinkedIn icon smaller */
+    height: auto;
+    position: absolute;
+    right: 10px; /* Position to the right corner */
+    top: 10px; /* Adjust as needed to control vertical position */
