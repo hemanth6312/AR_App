@@ -236,10 +236,17 @@ model-viewer {
 .header {
   background-color: #ffffff;
 }
-.footer{
-  background-color: #ffffff;
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
 }
+
 .imagedt {
-  style:"width:50px;height:50px;"
-  position:center;
+    width: 300px;
+    height: 100px;
+    margin-right: 0px;
+    /* You can add other styles here if needed */
 }
